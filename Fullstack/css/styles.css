@@ -1,0 +1,23 @@
+
+body
+{
+    background: rgba(204, 255, 0, 0.591);
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 300px
+
+
+}
+
+
+@font-face{
+
+    src: url("Rise of Kingdom.ttf");
+    font-family: a;
+}
+
+p{
+    font-family: a;
+}

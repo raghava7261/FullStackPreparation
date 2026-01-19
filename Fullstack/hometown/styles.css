@@ -1,0 +1,84 @@
+body
+{margin:0;
+   
+}
+.backgroundimg{
+
+    height: 300px;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+   
+    
+    background-image: url("images/vij.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 12px;
+
+}
+#activitycount{
+    text-align: center;
+}
+
+.city{
+    background-color: #a1cca5;
+    padding: 8 10 8 10;
+    border:None;
+    border-radius: 10px;
+    
+}
+
+.headline{
+    background-color: #457abb;
+    padding: 8 10 8 10;
+    border:None;
+    border-radius: 10px;
+
+}
+
+.img{
+    height:100px;
+    width: 150px;
+    border:none;
+    border-radius: 50%;
+}
+
+.activites{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.guide{
+    background-color: #a1d8e9;
+    display: flex;
+    justify-content: center;
+    width:700px;
+    align-items: center;
+    text-align: center;
+    margin:20px auto;
+    border:1px solid black;
+    border-radius: 12px;
+    box-shadow: 7px 7px 7px black;
+}
+
+#pic{
+    padding:10px 10px 10px 10px;
+    height: 300px;
+    border:none;
+    border-radius: 20px;
+    object-fit: cover;
+    
+
+}
+#pic:hover{
+    background-image: url("images/caves.jpeg");
+}

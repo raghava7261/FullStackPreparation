@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    background-color: rgb(14, 6, 65);
+    color: white;
+}
+
+.container{
+    display:flex;
+    gap: 80px;
+    text-align: center;
+}
+
+.box{
+    /* home-score */
+
+    background-color: #080001;
+    color: #F94F6D; /* Digital pink/red color */
+    font-size: 90px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    min-width: 100px;
+    margin-bottom: 25px;
+    font-family: monospace, Courier, "Courier New";
+
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+button{
+    background-color: transparent;
+    color: white;
+    padding: 10 13;
+    border: solid whitesmoke;
+    border-radius: 5px;
+    
+}

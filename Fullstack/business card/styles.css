@@ -1,0 +1,45 @@
+.body{
+
+    margin:20px;
+    font-family: Verdana;
+}
+
+.avatar{
+    border-radius: 5px;
+    width: 250;
+}
+
+.card{
+    background-color: #415a77;
+    color: black;
+    
+
+    box-shadow: 7px 7px 5px black;
+    border-radius: 6px;
+
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    width:700;
+    
+    padding: 10px;
+    text-align: center;
+
+}
+
+h2:hover{
+
+    
+    text-shadow: 4px 4px 2px white;
+    font-size: 30px;
+    background-color: aqua;
+
+    }
+p:hover{
+    background-color: red;
+    font-size: 20px;
+}
+
+
+
